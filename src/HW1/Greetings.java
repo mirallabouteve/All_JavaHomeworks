@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Greetings {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner greeting = new Scanner(System.in);
         System.out.println("Выберите язык для вывода приветствия:");
         System.out.println("1 - Английский");
         System.out.println("2 - Французский");
         System.out.println("3 - Испанский");
         System.out.println("4 - Немецкий");
-        int choice = scanner.nextInt();
+        int choice = greeting.nextInt();
         switch (choice) {
             case 1:
                 System.out.println("Hello!");
